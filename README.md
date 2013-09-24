@@ -12,7 +12,7 @@ Compile your sources & memcheck.cpp
 Link memcheck.cpp with your program
 _NOTE:_"memcheck.h" must be included after other standard headers
 
-"""cpp
+```cpp
     /*{{{
     #include <vector>
     #include "memcheck.h"//Right
@@ -22,7 +22,7 @@ _NOTE:_"memcheck.h" must be included after other standard headers
     #include "memcheck.h" //WRONG!
     #include <vector>
     }}}*/
-"""
+```
 
 #Contribution
 Currently this is just a toy project, it's not even thread-safe.
