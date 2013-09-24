@@ -12,7 +12,7 @@ Compile your sources & memcheck.cpp
 Link memcheck.cpp with your program
 _NOTE:_"memcheck.h" must be included after other standard headers
 
-""" C++
+"""cpp
     /*{{{
     #include <vector>
     #include "memcheck.h"//Right
