@@ -11,7 +11,8 @@ Include "memcheck.h" where you want to check memory leak.
 Compile your sources & memcheck.cpp
 Link memcheck.cpp with your program
 _NOTE:_"memcheck.h" must be included after other standard headers
-"""C++
+
+""" C++
     /*{{{
     #include <vector>
     #include "memcheck.h"//Right
