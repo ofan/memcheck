@@ -13,7 +13,6 @@ Link memcheck.cpp with your program
 _NOTE:_"memcheck.h" must be included after other standard headers
 
 ```cpp
-    /*{{{
     #include <vector>
     #include "memcheck.h"//Right
 
@@ -21,7 +20,6 @@ _NOTE:_"memcheck.h" must be included after other standard headers
 
     #include "memcheck.h" //WRONG!
     #include <vector>
-    }}}*/
 ```
 
 #Contribution
